@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-blood-homocysteine-mthfr-methylation-skill",
+  "version": "1.0.0",
+  "description": "Serum homocysteine, folate/B12 cofactor ratio & MTHFR C677T/A1298C methylation deficiency risk auditor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "audit_homocysteine_methylation_risk",
+      "description": "Serum homocysteine, folate/B12 cofactor ratio & MTHFR C677T/A1298C methylation deficiency risk auditor.",
+      "sample_input": {
+        "homocysteine_umol_l": 11.4,
+        "serum_folate_ng_ml": 8.5,
+        "serum_b12_pg_ml": 420.0,
+        "mthfr_genotype": "C677T_HETEROZYGOUS"
+      }
+    }
+  ]
+}
